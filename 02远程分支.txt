@@ -9,4 +9,8 @@ git push origin didiWzx
 #建立并切换到本地分支wzxLocal，并且与远端的remotes/origin/didiWzx关联
 git checkout -b localWzx remotes/origin/didiWzx
 
+
+git add README.md
+git commit -m "first commit"
+
 git push origin localWzx:didiWzx
