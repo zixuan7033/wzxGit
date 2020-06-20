@@ -1,0 +1,10 @@
+git branch -a 	                #查看分支
+git checkout master 		#切换到master分支
+git push origin --delete new_a 	#就是删除远程分支new_a
+
+# 在远端建立didiWzx分支
+git checkout -b didiWzx
+git push origin didiWzx
+
+#建立并切换到本地分支wzxLocal，并且与远端的remotes/origin/didiWzx关联
+git checkout -b localWzx remotes/origin/didiWzx
